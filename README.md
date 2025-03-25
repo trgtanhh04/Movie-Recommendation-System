@@ -1,5 +1,11 @@
 # Hệ Thống Gợi Ý Phim (Movie Recommender System)
 Đây là một hệ thống gợi ý phim sử dụng dữ liệu từ Kaggle để đưa ra danh sách phim tương tự dựa trên nội dung. Sử dụng Machine Learning 
+
+**Các loại hệ thống gợi ý**
+- Hệ thống dựa trên nội dung (Content-Based)
+- Hệ thống lọc cộng tác (Collaborative Filtering)
+- Hệ thống kết hợp (Hybrid-Based)
+
 ## Cấu Trúc Dự Án
 ```
 MOVIE RECOMMENDER SYSTEM  
@@ -39,49 +45,46 @@ Xuất ra danh sách phim tương tự với phim mà người dùng quan tâm.
   <img src=https://github.com/trgtanhh04/Movie-Recommendation-System/blob/main/demo/img2.png width="48%" alt="Dashboard">
 </p>
 
+---
 ## Dữ liệu sử dụng
 
-Bộ dữ liệu: TMDB 5000 Movies Dataset
+**Bộ dữ liệu:** [TMDB 5000 Movies Dataset](https://www.kaggle.com/tmdb/tmdb-movie-metadata)
 
 Thuật toán sử dụng:
 
-Cosine Similarity: Một phương pháp đo độ tương đồng giữa hai vector.
+- Cosine Similarity: Một phương pháp đo độ tương đồng giữa hai vector.
+- Nếu giá trị là 0, hai phim hoàn toàn khác nhau.
+- Nếu giá trị là 1, hai phim hoàn toàn giống nhau.
+- Để biết thêm chi tiết, tham khảo: Cosine Similarity
 
-Nếu giá trị là 0, hai phim hoàn toàn khác nhau.
-
-Nếu giá trị là 1, hai phim hoàn toàn giống nhau.
-
-Để biết thêm chi tiết, tham khảo: Cosine Similarity
-
-
-
-##  Cài Đặt và Chạy Dự Án
-
-1. **Clone repo về máy:**  
-   ```bash
-   git clone <repo-link>
-   ```
-
-2. **Cài đặt các thư viện cần thiết:**  
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Chạy ứng dụng:**  
-   ```bash
-   python app.py
-   ```
-
-## Tính Năng Chính
-Gợi ý phim dựa trên nội dung  
-Sử dụng dữ liệu TMDB  
-API xây dựng bằng Flask  
-
-## Thông Tin Khác
-- **Ngôn ngữ:** Python
-- **Thư viện chính:** Pandas, Flask, Scikit-Learn
-- **Dữ liệu:** TMDB Movies Dataset
 
 ---
+## Cách chạy dự án
+### Các bước thực hiện:
+**1. Clone repository:**
+```bash
+https://github.com/your-repo/Movie-Recommender-System.git
+```
 
+**2. Tạo môi trường conda:**
+```bash
+conda create -n movie python=3.7.10 -y
+conda activate movie
+```
+
+**3. Cài đặt các thư viện cần thiết:**
+```bash
+pip install -r requirements.txt
+```
+
+**4. Chạy mô hình và sinh file dữ liệu:**
+```bash
+python movie_recommendation.ipynb
+```
+
+**5. Chạy ứng dụng Streamlit:**
+```bash
+streamlit run app.py
+```
+---
 

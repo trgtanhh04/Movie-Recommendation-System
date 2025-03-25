@@ -2,9 +2,9 @@
 Đây là một hệ thống gợi ý phim sử dụng dữ liệu từ Kaggle để đưa ra danh sách phim tương tự dựa trên nội dung. Sử dụng Machine Learning 
 
 **Các loại hệ thống gợi ý**
-- Hệ thống dựa trên nội dung (Content-Based)
-- Hệ thống lọc cộng tác (Collaborative Filtering)
-- Hệ thống kết hợp (Hybrid-Based)
+-  Hệ thống dựa trên nội dung (Content-Based)
+-  Hệ thống lọc cộng tác (Collaborative Filtering)
+-  Hệ thống kết hợp (Hybrid-Based)
 
 ## Cấu Trúc Dự Án
 ```

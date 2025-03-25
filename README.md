@@ -52,10 +52,10 @@ Xuất ra danh sách phim tương tự với phim mà người dùng quan tâm.
 
 Thuật toán sử dụng:
 
-- Cosine Similarity: Một phương pháp đo độ tương đồng giữa hai vector.
-- Nếu giá trị là 0, hai phim hoàn toàn khác nhau.
-- Nếu giá trị là 1, hai phim hoàn toàn giống nhau.
-- Để biết thêm chi tiết, tham khảo: Cosine Similarity
+-  Cosine Similarity: Một phương pháp đo độ tương đồng giữa hai vector.
+-  Nếu giá trị là 0, hai phim hoàn toàn khác nhau.
+-  Nếu giá trị là 1, hai phim hoàn toàn giống nhau.
+-  Để biết thêm chi tiết, tham khảo: Cosine Similarity
 
 
 ---

@@ -7,23 +7,23 @@ MOVIE RECOMMENDER SYSTEM
  |- data  
  | |- tmdb_5000_credits.csv  
  | |_tmdb_5000_movies.csv  
- ┣  demo  
- ┃ ┣ img1.png  
- ┃ ┗ img2.png  
- ┣ pickle  
- ┃ ┣  movie_list.pkl  
- ┃ ┗  similarity.pkl  
- ┣ setup  
- ┃ ┣  setup.py  
- ┃ ┗  setup.sh  
- ┣ .gitattributes  
- ┣ .gitignore  
- ┣ app.py  
- ┣ demo.py  
- ┣ movie_recommendation.ipynb  
- ┣ Procfile  
- ┣ recommendation.py  
- ┗ requirements.txt  
+ |-  demo  
+ | |- img1.png  
+ | |_ img2.png  
+ |- pickle  
+ | |-  movie_list.pkl  
+ | |_  similarity.pkl  
+ |- setup  
+ | |- setup.py  
+ | |_ setup.sh  
+ |- .gitattributes  
+ |- .gitignore  
+ |- app.py  
+ |- demo.py  
+ |- movie_recommendation.ipynb  
+ |- Procfile  
+ |- recommendation.py  
+ |_ requirements.txt  
 ```
 
 ##  Cài Đặt và Chạy Dự Án

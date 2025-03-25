@@ -79,7 +79,7 @@ pip install -r requirements.txt
 
 **4. Chạy mô hình và sinh file dữ liệu:**
 ```bash
-python movie_recommendation.ipynb
+python movie_recommendation.ipynb  
 ```
 
 **5. Chạy ứng dụng Streamlit:**

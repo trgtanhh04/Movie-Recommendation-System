@@ -4,9 +4,9 @@
 ## Cấu Trúc Dự Án
 ```
 MOVIE RECOMMENDER SYSTEM  
- ┣ data  
- ┃ ┣- tmdb_5000_credits.csv  
- ┃ ┗ tmdb_5000_movies.csv  
+ |- data  
+ | |- tmdb_5000_credits.csv  
+ | |_tmdb_5000_movies.csv  
  ┣  demo  
  ┃ ┣ img1.png  
  ┃ ┗ img2.png  

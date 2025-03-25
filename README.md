@@ -26,6 +26,12 @@ MOVIE RECOMMENDER SYSTEM
  |_ requirements.txt  
 ```
 
+## Demo dự án
+<p align="center">
+  <img src=https://github.com/trgtanhh04/Movie-Recommendation-System/blob/main/demo/img1.png width="48%" alt="Dashboard">
+  <img src=https://github.com/trgtanhh04/Movie-Recommendation-System/blob/main/demo/img2.png width="48%" alt="Dashboard">
+</p>
+
 ##  Cài Đặt và Chạy Dự Án
 
 1. **Clone repo về máy:**  

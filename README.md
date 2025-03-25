@@ -1,5 +1,5 @@
 # Hệ Thống Gợi Ý Phim (Movie Recommender System)
-Đây là một hệ thống gợi ý phim sử dụng dữ liệu từ TMDB để đưa ra danh sách phim tương tự dựa trên nội dung.
+Đây là một hệ thống gợi ý phim sử dụng dữ liệu từ Kaggle để đưa ra danh sách phim tương tự dựa trên nội dung. Sử dụng Machine Learning 
 
 ## Cấu Trúc Dự Án
 ```
@@ -44,7 +44,6 @@ MOVIE RECOMMENDER SYSTEM
    ```
 
 ## Tính Năng Chính
-
 Gợi ý phim dựa trên nội dung  
 Sử dụng dữ liệu TMDB  
 API xây dựng bằng Flask  
@@ -55,5 +54,5 @@ API xây dựng bằng Flask
 - **Dữ liệu:** TMDB Movies Dataset
 
 ---
-💡 *Hãy đóng góp nếu bạn có ý tưởng cải tiến hệ thống!*
+
 

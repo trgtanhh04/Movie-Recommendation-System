@@ -45,6 +45,7 @@ Mô hình hoạt động:
   <img src=https://github.com/trgtanhh04/Movie-Recommendation-System/blob/main/demo/img2.png width="48%" alt="Dashboard">
 </p>
 ---
+
 ## Dữ liệu sử dụng
 
 **Bộ dữ liệu:** [TMDB 5000 Movies Dataset](https://www.kaggle.com/tmdb/tmdb-movie-metadata)

@@ -44,7 +44,6 @@ Mô hình hoạt động:
   <img src=https://github.com/trgtanhh04/Movie-Recommendation-System/blob/main/demo/img1.png width="48%" alt="Dashboard">
   <img src=https://github.com/trgtanhh04/Movie-Recommendation-System/blob/main/demo/img2.png width="48%" alt="Dashboard">
 </p>
-
 ---
 ## Dữ liệu sử dụng
 
@@ -58,18 +57,20 @@ Thuật toán sử dụng:
 -  Để biết thêm chi tiết, tham khảo: Cosine Similarity
 
 **Cosine Similarity** là một độ đo khoảng cách giữa hai vector trong không gian nhiều chiều, thường được sử dụng để đánh giá mức độ tương đồng giữa hai tập dữ liệu. Công thức tính như sau:
-$$ \text{Cosine Similarity} = \frac{A \cdot B}{\|A\| \times \|B\|} $$
+
+<img src=[https://github.com/trgtanhh04/Movie-Recommendation-System/blob/main/demo/img2.png](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*dGWOzgAYv9NUkWvkETQUTQ.png) width="48%" alt="Dashboard">
 
 
-Trong đó:
-- \( A \) và \( B \) là hai vector đặc trưng của hai bộ phim.
-- \( A \cdot B \) là tích vô hướng giữa hai vector.
-- \( \|A\| \) và \( \|B\| \) là độ dài (norm) của hai vector.
 
-Giá trị Cosine Similarity dao động từ -1 đến 1:
-- **1**: Hai bộ phim giống nhau hoàn toàn.
-- **0**: Hai bộ phim không liên quan.
-- **-1**: Hai bộ phim hoàn toàn trái ngược nhau.
+- Trong đó:
+  - \( A \) và \( B \) là hai vector đặc trưng của hai bộ phim.
+  - \( A \cdot B \) là tích vô hướng giữa hai vector.
+  - \( \|A\| \) và \( \|B\| \) là độ dài (norm) của hai vector.
+
+- Giá trị Cosine Similarity dao động từ -1 đến 1:
+  - **1**: Hai bộ phim giống nhau hoàn toàn.
+  - **0**: Hai bộ phim không liên quan.
+  - **-1**: Hai bộ phim hoàn toàn trái ngược nhau.
 
 ---
 ## Cách chạy dự án

@@ -58,11 +58,8 @@ Thuật toán sử dụng:
 -  Để biết thêm chi tiết, tham khảo: Cosine Similarity
 
 **Cosine Similarity** là một độ đo khoảng cách giữa hai vector trong không gian nhiều chiều, thường được sử dụng để đánh giá mức độ tương đồng giữa hai tập dữ liệu. Công thức tính như sau:
-```
-\[
-\text{Cosine Similarity} = \frac{A \cdot B}{\|A\| \times \|B\|}
-\]
-```
+$$ \text{Cosine Similarity} = \frac{A \cdot B}{\|A\| \times \|B\|} $$
+
 
 Trong đó:
 - \( A \) và \( B \) là hai vector đặc trưng của hai bộ phim.

@@ -58,7 +58,7 @@ Thuật toán sử dụng:
 
 **Cosine Similarity** là một độ đo khoảng cách giữa hai vector trong không gian nhiều chiều, thường được sử dụng để đánh giá mức độ tương đồng giữa hai tập dữ liệu. Công thức tính như sau:
 
-<img src=[https://github.com/trgtanhh04/Movie-Recommendation-System/blob/main/demo/img2.png](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*dGWOzgAYv9NUkWvkETQUTQ.png) width="48%" alt="Dashboard">
+<img src=https://miro.medium.com/v2/resize:fit:1100/format:webp/1*dGWOzgAYv9NUkWvkETQUTQ.png width="48%" alt="Dashboard">
 
 
 

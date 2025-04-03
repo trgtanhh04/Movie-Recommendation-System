@@ -38,21 +38,7 @@ Mô hình hoạt động:
 - Hệ thống chuyển đổi thông tin phim thành vector.
 
 - Tính toán mức độ tương đồng giữa các phim bằng Cosine Similarity.
-**Cosine Similarity** là một độ đo khoảng cách giữa hai vector trong không gian nhiều chiều, thường được sử dụng để đánh giá mức độ tương đồng giữa hai tập dữ liệu. Công thức tính như sau:
 
-\[
-\text{Cosine Similarity} = \frac{A \cdot B}{\|A\| \times \|B\|}
-\]
-
-Trong đó:
-- \( A \) và \( B \) là hai vector đặc trưng của hai bộ phim.
-- \( A \cdot B \) là tích vô hướng giữa hai vector.
-- \( \|A\| \) và \( \|B\| \) là độ dài (norm) của hai vector.
-
-Giá trị Cosine Similarity dao động từ -1 đến 1:
-- **1**: Hai bộ phim giống nhau hoàn toàn.
-- **0**: Hai bộ phim không liên quan.
-- **-1**: Hai bộ phim hoàn toàn trái ngược nhau.
 - Xuất ra danh sách phim tương tự với phim mà người dùng quan tâm.
 <p align="center">
   <img src=https://github.com/trgtanhh04/Movie-Recommendation-System/blob/main/demo/img1.png width="48%" alt="Dashboard">
@@ -71,6 +57,22 @@ Thuật toán sử dụng:
 -  Nếu giá trị là 1, hai phim hoàn toàn giống nhau.
 -  Để biết thêm chi tiết, tham khảo: Cosine Similarity
 
+**Cosine Similarity** là một độ đo khoảng cách giữa hai vector trong không gian nhiều chiều, thường được sử dụng để đánh giá mức độ tương đồng giữa hai tập dữ liệu. Công thức tính như sau:
+```
+\[
+\text{Cosine Similarity} = \frac{A \cdot B}{\|A\| \times \|B\|}
+\]
+```
+
+Trong đó:
+- \( A \) và \( B \) là hai vector đặc trưng của hai bộ phim.
+- \( A \cdot B \) là tích vô hướng giữa hai vector.
+- \( \|A\| \) và \( \|B\| \) là độ dài (norm) của hai vector.
+
+Giá trị Cosine Similarity dao động từ -1 đến 1:
+- **1**: Hai bộ phim giống nhau hoàn toàn.
+- **0**: Hai bộ phim không liên quan.
+- **-1**: Hai bộ phim hoàn toàn trái ngược nhau.
 
 ---
 ## Cách chạy dự án
@@ -123,34 +125,3 @@ Dự án này nhằm so sánh ba mô hình Machine Learning: Logistic Regression
 - Là mô hình boosting dựa trên cây quyết định, tối ưu hóa tốc độ và hiệu suất.
 - Xử lý tốt các dữ liệu phức tạp, giảm thiểu overfitting.
 - Thường được dùng trong các cuộc thi Machine Learning nhờ hiệu suất vượt trội.
-
-## 3. Tính toán mức độ tương đồng giữa các phim bằng Cosine Similarity
-
-### 3.1 Cosine Similarity là gì?
-**Cosine Similarity** là một độ đo khoảng cách giữa hai vector trong không gian nhiều chiều, thường được sử dụng để đánh giá mức độ tương đồng giữa hai tập dữ liệu. Công thức tính như sau:
-
-\[
-\text{Cosine Similarity} = \frac{A \cdot B}{\|A\| \times \|B\|}
-\]
-
-Trong đó:
-- \( A \) và \( B \) là hai vector đặc trưng của hai bộ phim.
-- \( A \cdot B \) là tích vô hướng giữa hai vector.
-- \( \|A\| \) và \( \|B\| \) là độ dài (norm) của hai vector.
-
-Giá trị Cosine Similarity dao động từ -1 đến 1:
-- **1**: Hai bộ phim giống nhau hoàn toàn.
-- **0**: Hai bộ phim không liên quan.
-- **-1**: Hai bộ phim hoàn toàn trái ngược nhau.
-
-### 3.2 Ứng dụng trong hệ thống đề xuất phim
-- Dựa vào điểm Cosine Similarity, hệ thống có thể tìm ra những bộ phim có nội dung tương tự với phim mà người dùng đã xem.
-- Phương pháp này thường được áp dụng trong **Content-Based Filtering**, nơi mà phim được đề xuất dựa trên nội dung hoặc thể loại của chúng.
-
-## 4. Kết luận
-Sau khi so sánh và đánh giá hiệu suất của ba mô hình, chúng tôi quyết định chọn **XGBoost** do:
-- Hiệu suất cao nhất trên tập dữ liệu.
-- Giảm overfitting tốt hơn Random Forest.
-- Tốc độ nhanh hơn khi dự báo.
-
-Ngoài ra, trong bài toán đề xuất phim, **Cosine Similarity** là một phương pháp hiệu quả để tính toán mức độ tương đồng giữa các bộ phim. Nó giúp hệ thống đề xuất phim đưa ra các gợi ý chính xác hơn, cải thiện trải nghiệm

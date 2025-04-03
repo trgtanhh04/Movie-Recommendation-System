@@ -72,7 +72,29 @@ Thuật toán sử dụng:
   - **1**: Hai bộ phim giống nhau hoàn toàn.
   - **0**: Hai bộ phim không liên quan.
   - **-1**: Hai bộ phim hoàn toàn trái ngược nhau.
+---
 
+# So sánh ba mô hình Machine Learning
+
+## 1. Giới thiệu
+Dự án này nhằm so sánh ba mô hình Machine Learning: Logistic Regression, Random Forest và XGBoost. Mục tiêu là đánh giá hiệu suất và chọn ra mô hình tốt nhất dành cho bài toán dự báo.
+
+## 2. Mô hình so sánh
+
+### 2.1 Logistic Regression
+- Là một mô hình tháng tuyến đơn giản, dễ hiểu và dễ triển khai.
+- Thích hợp với các bài toán dự báo nhị phân.
+- Hiệu suất không cao khi dữ liệu phức tạp và không tuyến tính.
+
+### 2.2 Random Forest
+- Là mô hình tập hợp cây quyết định, giảm overfitting so với cây quyết định đơn lẻ.
+- Không yêu cầu nhiều xử lý dữ liệu, hoạt động tốt trên tập dữ liệu lớn.
+- Hiệu suất tốt nhưng có thể chậm hơn so với các mô hình khác.
+
+### 2.3 XGBoost
+- Là mô hình boosting dựa trên cây quyết định, tối ưu hóa tốc độ và hiệu suất.
+- Xử lý tốt các dữ liệu phức tạp, giảm thiểu overfitting.
+- Thường được dùng trong các cuộc thi Machine Learning nhờ hiệu suất vượt trội.
 ---
 ## Cách chạy dự án
 ### Các bước thực hiện:
@@ -102,25 +124,3 @@ python movie_recommendation.ipynb
 streamlit run app.py
 ```
 ---
-
-# So sánh ba mô hình Machine Learning
-
-## 1. Giới thiệu
-Dự án này nhằm so sánh ba mô hình Machine Learning: Logistic Regression, Random Forest và XGBoost. Mục tiêu là đánh giá hiệu suất và chọn ra mô hình tốt nhất dành cho bài toán dự báo.
-
-## 2. Mô hình so sánh
-
-### 2.1 Logistic Regression
-- Là một mô hình tháng tuyến đơn giản, dễ hiểu và dễ triển khai.
-- Thích hợp với các bài toán dự báo nhị phân.
-- Hiệu suất không cao khi dữ liệu phức tạp và không tuyến tính.
-
-### 2.2 Random Forest
-- Là mô hình tập hợp cây quyết định, giảm overfitting so với cây quyết định đơn lẻ.
-- Không yêu cầu nhiều xử lý dữ liệu, hoạt động tốt trên tập dữ liệu lớn.
-- Hiệu suất tốt nhưng có thể chậm hơn so với các mô hình khác.
-
-### 2.3 XGBoost
-- Là mô hình boosting dựa trên cây quyết định, tối ưu hóa tốc độ và hiệu suất.
-- Xử lý tốt các dữ liệu phức tạp, giảm thiểu overfitting.
-- Thường được dùng trong các cuộc thi Machine Learning nhờ hiệu suất vượt trội.
